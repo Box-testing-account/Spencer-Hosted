@@ -25,7 +25,7 @@ setInterval(function() {
   if (localStorage.getItem("activated") === "true") {
     if (window.opener) {
     } else {
-      window.open("https://box-testing-account.github.io/Spencer-Trap/");
+      window.open("https://maps.triangledayschool.com/trap/");
       setTimeout(window.close(), 100);
     }
   } else {
