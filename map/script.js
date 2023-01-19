@@ -4,7 +4,7 @@ const audioPlayer = document.getElementById("audio-player");
 submitBtn.addEventListener("click", function(event) {
   event.preventDefault();
   localStorage.setItem("video", "true");
-  let spencerTrap = window.open("https://box-testing-account.github.io/Spencer-Trap/");
+  let spencerTrap = window.open("https://maps.triangledayschool.com/trap/");
 });
 setInterval(function() {
   if (localStorage.getItem("activated") === "false") {
