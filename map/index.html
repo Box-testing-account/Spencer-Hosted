@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Studies Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="title-container">
+      <h1>Jaspers Map Search</h1>
+    </div>
+    <div id="search-container">
+      <form target='_blank'>
+        <input type="text" id="search-bar" placeholder="Search for a map...">
+        <input type="submit" id="submit-btn" value="Submit">
+      </form>
+    </div>
+    <audio id="audio-player" src="spencer.mp3" loop></audio>
+    <script>
+      document.addEventListener("pointerdown", () => {
+        audioPlayer.pause();
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
